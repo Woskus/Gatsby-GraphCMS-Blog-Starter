@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	background: var(--gray-background);
+	color: var(--black);
+	font-size: var(--default-font-size);
+	font-family: 'Poppins', -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol";
+	scroll-behavior: smooth;
+}
+
+html {
+	line-height: 1.3;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}

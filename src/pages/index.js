@@ -1,5 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery, Link } from 'gatsby';
+import Layout from '../components/layout';
+import '../scss/main.scss';
 
 const IndexPage = () => {
 	const { blog: { posts } } = useStaticQuery( postsQuery );
@@ -7,14 +9,14 @@ const IndexPage = () => {
 	console.log( posts );
 
 	return (
-		<div>
+		<Layout>
 			{posts.map( post => (
 				<div key={post.id}>
 					<h2>{post.title}</h2>
 					<Link to={post.slug}>Read more</Link>
 				</div>
 			) )}
-		</div>
+		</Layout>
 	);
 };
 

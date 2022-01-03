@@ -9,6 +9,7 @@ module.exports = {
 				typeName: 'blog',
 				fieldName: 'blog'
 			}
-		}
+		},
+		'gatsby-plugin-sass'
 	]
 };
