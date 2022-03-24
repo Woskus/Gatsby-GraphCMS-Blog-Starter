@@ -1,6 +1,6 @@
 {
   "name": "gatsby-graphcms-blog-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blog starter build with Gatsby.js and GraphCMS as HeadlessCMS",
   "author": "Mateusz Woskowicz",
   "license": "MIT",
@@ -25,9 +25,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Woskus/Gatsby-GraphCMS-Blog-Starter"
+    "url": "https://github.com/Woskus/gatsby-graphcms-blog-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/Woskus/Gatsby-GraphCMS-Blog-Starter/issues"
+    "url": "https://github.com/Woskus/gatsby-graphcms-blog-starter/issues"
   }
 }
